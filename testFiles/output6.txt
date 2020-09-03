@@ -1,0 +1,167 @@
+Tree v1.1
+----------
+
+1 - tree_init()
+2 - tree_clear()
+3 - tree_insert()
+4 - tree_delete()
+5 - tree_find_node()
+6 - tree_get_node_count()
+7 - tree_proces()
+M - MENU
+P - Tree_Print()
+E - END
+Your choice: Your choice: 1
+Tree initialized successfuly.
+
+Your choice: Your choice: 7
+Process:
+1 - preorder
+2 - inorder
+3 - postorder
+Your choice1
+
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 296 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 592 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 888 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 1184 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 1480 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 1776 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 2072 bytes
+
+Your choice: Your choice: 3
+Insert data to a node:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myMalloc: allocating 296 bytes, memory allocated 2368 bytes
+
+Your choice: Your choice: 7
+Process:
+1 - preorder
+2 - inorder
+3 - postorder
+Your choice1
+
+Name=Franta, age=50.0, weight=80.0, height=180.0
+ | L -> Name=Beata, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Silva, age=60.0, weight=70.0, height=175.0
+
+Name=Beata, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Anna, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Dana, age=30.0, weight=60.0, height=160.0
+
+Name=Anna, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Dana, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Ciril, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Eva, age=30.0, weight=60.0, height=160.0
+
+Name=Ciril, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Eva, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Silva, age=60.0, weight=70.0, height=175.0
+ | L -> Name=Libor, age=50.0, weight=80.0, height=150.0
+ | R -> NULL
+Name=Libor, age=50.0, weight=80.0, height=150.0
+ | L -> NULL | R -> NULL
+
+Your choice: Your choice: 4
+Insert data to delete:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myFree: releasing 296 bytes, memory allocated 2072 bytes
+
+Your choice: Your choice: 7
+Process:
+1 - preorder
+2 - inorder
+3 - postorder
+Your choice1
+
+Name=Eva, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Beata, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Silva, age=60.0, weight=70.0, height=175.0
+
+Name=Beata, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Anna, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Dana, age=30.0, weight=60.0, height=160.0
+
+Name=Anna, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Dana, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Ciril, age=30.0, weight=60.0, height=160.0
+ | R -> NULL
+Name=Ciril, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Silva, age=60.0, weight=70.0, height=175.0
+ | L -> Name=Libor, age=50.0, weight=80.0, height=150.0
+ | R -> NULL
+Name=Libor, age=50.0, weight=80.0, height=150.0
+ | L -> NULL | R -> NULL
+
+Your choice: Your choice: 4
+Insert data to delete:
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myFree: releasing 296 bytes, memory allocated 1776 bytes
+
+Your choice: Your choice: 7
+Process:
+1 - preorder
+2 - inorder
+3 - postorder
+Your choice1
+
+Name=Dana, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Beata, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Silva, age=60.0, weight=70.0, height=175.0
+
+Name=Beata, age=30.0, weight=60.0, height=160.0
+ | L -> Name=Anna, age=30.0, weight=60.0, height=160.0
+ | R -> Name=Ciril, age=30.0, weight=60.0, height=160.0
+
+Name=Anna, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Ciril, age=30.0, weight=60.0, height=160.0
+ | L -> NULL | R -> NULL
+Name=Silva, age=60.0, weight=70.0, height=175.0
+ | L -> Name=Libor, age=50.0, weight=80.0, height=150.0
+ | R -> NULL
+Name=Libor, age=50.0, weight=80.0, height=150.0
+ | L -> NULL | R -> NULL
+
+Your choice: Your choice: e
+END.
+
+myFree: releasing 296 bytes, memory allocated 1480 bytes
+myFree: releasing 296 bytes, memory allocated 1184 bytes
+myFree: releasing 296 bytes, memory allocated 888 bytes
+myFree: releasing 296 bytes, memory allocated 592 bytes
+myFree: releasing 296 bytes, memory allocated 296 bytes
+myFree: releasing 296 bytes, memory allocated 0 bytes
