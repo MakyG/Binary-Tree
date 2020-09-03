@@ -1,6 +1,6 @@
 /**
  * @file       tree.c
- * @author     Ondřej Ševčík
+ * @author     Tomáš Makyča
  * @date       6/2019
  * @brief      Source file for binary tree
  * **********************************************************************
